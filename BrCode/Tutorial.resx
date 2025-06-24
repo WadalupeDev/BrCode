@@ -134,22 +134,28 @@
         SecRsYoiYhVFxCqKiFUSH38AFikGS2g7OLYAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>F1: Se leera en voz alta la salida de la consola
+F2: Se leera en voz alta la seleccion de el codigo actual
+F3: Se leera en voz alta la linea y columna donde esta el cursor
+F4: Se leera en voz alta todo el codigo
+F5: Se pone en foco el cuadro de texto del codigo para poder comenzar a escribir
+F6: Guarda Archivo
+F7: Carga Archivo
+F8: Crea un nuevo archivo
+F9: Compila el codigo
+F10: Da los resultados del analisis Lexico, Sintactico y Semantico
+F11: Disminuya la velocidad del Text To Speech
+F12: Amenta la velocidad del Text To Speech
+
+NumPad 0: convierte la clave ingresada a palabras clave
+Esc: Cancela el Text To Speech en curso</value>
+  </data>
   <data name="lbVariable1.Text" xml:space="preserve">
-    <value>Para poder ingresar las palabras nativas de Java, será necesario el uso de atajos. Estos atajos serán definidos por combinaciones de números, los cuales serán ingresados desde el Num Pad del teclado. Dichos atajos están categorizados y son los siguientes:</value>
+    <value>Para poder ingresar las palabras nativas de Java, será necesario el uso de atajos. Estos atajos serán definidos por combinaciones de números, los cuales serán ingresados desde el Num Pad del teclado y apareceran al presionar la tecla del numpad 0. Dichos atajos están categorizados y son los siguientes:</value>
   </data>
   <data name="label30.Text" xml:space="preserve">
     <value>Este compilador está adaptado para que personas con alguna discapacidad visual sean capaces de poder programar, por ende, a continuación se mostrará la forma en la que dicho compilador estará trabajando y las indicaciones de uso del teclado. Este programa tiene integrada la tecnología Text to Speech, por lo cual será más fácil para el usuario interpretar este instructivo. </value>
-  </data>
-  <data name="label31.Text" xml:space="preserve">
-    <value>Las teclas tienen un color de etiqueta definido, dicho color tiene un significado para que sea más fácil identificar las teclas que se desean usar. 
-A continuación se mostrará el significado de dichos colores:
-
-● Rosa: Signos de puntuación.
-● Rojo: Funciones de teclado.
-● Verde: Alfabeto.
-● Amarillo: Num Pad.
-● Morado: Flechas de movimiento.
-● Azul: Números qwerty.</value>
   </data>
   <data name="label29.Text" xml:space="preserve">
     <value>La programación estructurada es un paradigma de programación orientado a mejorar la claridad, calidad y tiempo de desarrollo de un programa utilizando únicamente subrutinas o funciones y tres estructuras: secuencial, condicional y repetitiva.
@@ -171,5 +177,16 @@ Es aquella que ejecuta una estructura una y otra vez si se cumple una condición
 Java es un lenguaje de programación muy transferible que se usa en plataformas y diferentes tipos de dispositivos, desde smartphones hasta televisores inteligentes. Se usa para crear aplicaciones móviles y web, software empresarial, dispositivos de Internet de las cosas (IoT), juegos, macrodatos, aplicaciones distribuidas y basadas en la nube, entre otros tipos
 
 Cabe destacar que aunque Java es un lenguaje de programación orientada a objetos, también podemos aplicar programación estructurada, la cual es la programación recomendada para que usuarios principiantes se introduzcan a lo que es lenguaje.</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>Las teclas tienen un color de etiqueta definido, dicho color tiene un significado para que sea más fácil identificar las teclas que se desean usar. 
+A continuación se mostrará el significado de dichos colores:
+
+● Rosa: Signos de puntuación.
+● Rojo: Funciones de teclado.
+● Verde: Alfabeto.
+● Amarillo: Num Pad.
+● Morado: Flechas de movimiento.
+● Azul: Números qwerty.</value>
   </data>
 </root>

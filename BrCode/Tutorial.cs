@@ -212,5 +212,9 @@ namespace BrCode
             }
             return base.ProcessCmdKey(ref msg, keyData);
         }
+
+        private void lbVariable1_Click(object sender, EventArgs e) {
+
+        }
     }
 }

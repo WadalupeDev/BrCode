@@ -70,6 +70,8 @@
             this.label28 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.bunifuSeparator2 = new Bunifu.Framework.UI.BunifuSeparator();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -117,7 +119,14 @@
             this.bunifuThinButton21.TabIndex = 22;
             this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click);
-
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox2.TabIndex = 23;
+            this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -163,7 +172,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.AutoScroll = true;
+            this.panel1.Controls.Add(this.label25);
             this.panel1.Controls.Add(this.label21);
+            this.panel1.Controls.Add(this.label23);
             this.panel1.Controls.Add(this.label22);
             this.panel1.Controls.Add(this.label19);
             this.panel1.Controls.Add(this.label20);
@@ -411,6 +422,7 @@
             this.lbVariable1.Size = new System.Drawing.Size(722, 55);
             this.lbVariable1.TabIndex = 67;
             this.lbVariable1.Text = resources.GetString("lbVariable1.Text");
+            this.lbVariable1.Click += new System.EventHandler(this.lbVariable1_Click);
             // 
             // label26
             // 
@@ -432,7 +444,7 @@
             this.bunifuSeparator3.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
             this.bunifuSeparator3.LineThickness = 1;
             this.bunifuSeparator3.Location = new System.Drawing.Point(10, 635);
-            this.bunifuSeparator3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuSeparator3.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuSeparator3.Name = "bunifuSeparator3";
             this.bunifuSeparator3.Size = new System.Drawing.Size(818, 16);
             this.bunifuSeparator3.TabIndex = 65;
@@ -472,7 +484,7 @@
             this.tabPage5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage5.Size = new System.Drawing.Size(792, 465);
             this.tabPage5.TabIndex = 0;
             this.tabPage5.Text = "Introducción a java";
@@ -528,7 +540,7 @@
             this.tabPage6.ForeColor = System.Drawing.Color.Black;
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage6.Size = new System.Drawing.Size(792, 465);
             this.tabPage6.TabIndex = 1;
             this.tabPage6.Text = "¿Cómo Funciona BrCode?";
@@ -564,7 +576,7 @@
             this.bunifuSeparator2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
             this.bunifuSeparator2.LineThickness = 1;
             this.bunifuSeparator2.Location = new System.Drawing.Point(21, 2622);
-            this.bunifuSeparator2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuSeparator2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuSeparator2.Name = "bunifuSeparator2";
             this.bunifuSeparator2.Size = new System.Drawing.Size(818, 24);
             this.bunifuSeparator2.TabIndex = 41;
@@ -572,7 +584,27 @@
             this.bunifuSeparator2.Vertical = false;
             this.bunifuSeparator2.Load += new System.EventHandler(this.bunifuSeparator2_Load);
             // 
-            // TutorialLearnKode
+            // label23
+            // 
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(17, 2645);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(736, 421);
+            this.label23.TabIndex = 89;
+            this.label23.Text = resources.GetString("label23.Text");
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.Lime;
+            this.label25.Location = new System.Drawing.Point(16, 2605);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(319, 29);
+            this.label25.TabIndex = 88;
+            this.label25.Text = "Controles Text To Speech";
+            // 
+            // Tutorial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -585,7 +617,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox5);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "TutorialLearnKode";
+            this.Name = "Tutorial";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TutorialLearnKode";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TutorialLearnKode_KeyDown);
@@ -648,5 +680,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label23;
     }
 }
